@@ -124,7 +124,7 @@ def normalized_frames_to_frames(normalized_frames, statistics):
     for i in range(frames.shape[1]):
         # x * (max - min) + mean
         frames[:, i] = frames[:, i] * (statistics[i, 1] - statistics[i, 0]) + statistics[i, 2]
-
+    print("1")
     return frames
 
 
