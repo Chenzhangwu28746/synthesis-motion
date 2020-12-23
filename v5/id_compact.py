@@ -29,4 +29,4 @@ def run(dirpath):
     os.rename(old_file_path, new_file_path)
 
 if __name__ == "__main__":
-  run('./walk_id_compacted')
+  run('./jump_id_compacted')

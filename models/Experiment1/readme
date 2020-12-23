@@ -1,0 +1,6 @@
+"跑通流程"
+
+dataloader = torch.utils.data.DataLoader(dataset=dataset, batch_size=10, shuffle=True, drop_last=True)
+learning_rate = 1e-4
+num_epochs = 100
+num_classes = dataset.category_num
